@@ -1,0 +1,35 @@
+<h1> Add Project </h1>
+
+<form method="POST" action="/admin/add" enctype="multipart/form-data">
+    <div clas="form-group">
+        <label>Title</label>
+        <input type="text" class="form-control" name="title" placeholder="Title">
+    </div>
+    <div clas="form-group">
+        <label>Service</label>
+        <input type="text" class="form-control" name="service" placeholder="Service">
+    </div>
+    <div clas="form-group">
+        <label>Client</label>
+        <input type="text" class="form-control" name="client" placeholder="Client">
+    </div>
+    <div clas="form-group">
+        <label>Description</label>
+        <textarea type="text" class="form-control" name="description" placeholder="Description"></textarea>
+    </div>
+    <div clas="form-group">
+        <label>Project URl</label>
+        <input type="text" class="form-control" name="url" placeholder="Project URL">
+    </div>
+    <div clas="form-group">
+        <label>Project Date</label>
+        <input type="date" class="form-control" name="projectdate">
+    </div>
+    <div clas="form-group">
+        <label>Image</label>
+        <input type="file" class="form-control" name="projectimage">
+    </div>
+    <button type="submit" class="button">
+        Submit
+    </button>
+</form>
