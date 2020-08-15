@@ -163,4 +163,13 @@ router.post('/edit/:id', upload.single('projectimage') ,function(req,res,next){
     res.redirect('/admin');
 });
 
+router.delete('/delete/:id', function(req,res){
+    connection.query('DELETE FROM projects WHERE id = '+req.params.id, function(err, result){
+        if(err) throw err;
+        console.log('deleted '+ result.affectedRows + ' rows');
+    });
+        req.flash('success_msg', "Project Deleted");
+        res.sendStatus(200);
+});
+
 module.exports = router;
