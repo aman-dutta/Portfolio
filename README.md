@@ -4,7 +4,7 @@ This is a project on implementing the node.js, express, which uses mySql as a da
 
 Database:
 
-![Portfolio](https://user-images.githubusercontent.com/40728119/90332799-ce4bda00-dfdf-11ea-95b3-46a0970f4015.JPG)
+![Database](https://user-images.githubusercontent.com/40728119/90332794-c55b0880-dfdf-11ea-909f-f81107c8ab4e.JPG)
 
 Homepage:
 
